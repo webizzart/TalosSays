@@ -7,7 +7,7 @@ Edit TalosSays.js and change *"var hostname = myhost.example.com"* to your web/e
 
 `phantomjs TalosSays.js`
 
-This utility outputs just three lines of text, extracted from the 
+This utility outputs just four lines of text, extracted from the Talos reputation result web page:
 
 ```
 Hostname:              myhost.example.com
