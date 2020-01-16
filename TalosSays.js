@@ -6,7 +6,7 @@ var hostname = 'myhost.example.com';
 var host = 'https://www.talosintelligence.com';
 var doc  = 'reputation_center/lookup?search=' + hostname;
 var page = require('webpage').create();
-
+page.settings.userAgent = 'SpecialAgent';
 // Error handler - log errros not caught by any page handler.
 // See: http://phantomjs.org/api/phantom/handler/on-error.html
 page.onError = function(msg, trace) {
